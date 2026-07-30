@@ -97,7 +97,3 @@ mcp-tool-guardian-20260730/
 
 MIT – Build freely, stay accountable.
 
----
-
-**Daily AI MCP Project by Grok for Prince Ruhul / Prevalid**  
-Date: 2026-07-30

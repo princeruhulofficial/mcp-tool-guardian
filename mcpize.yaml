@@ -1,0 +1,32 @@
+name: mcp-tool-guardian
+version: 1.0.0
+description: MCP server that validates tool outputs, sanitizes data, and scores reliability for safer AI agents
+author: Prince Ruhul / Prevalid
+license: MIT
+language: python
+entry_point: src.server:main
+tools:
+  - name: validate_against_schema
+    description: Validate any JSON data against a JSON Schema
+  - name: sanitize_tool_output
+    description: Clean and sanitize tool output for safe consumption by LLMs
+  - name: score_reliability
+    description: Score the reliability of a tool response (0-100)
+  - name: detect_suspicious_patterns
+    description: Detect potential tool poisoning or injection patterns
+  - name: create_audit_entry
+    description: Create a simple accountability audit log entry
+tags:
+  - reliability
+  - validation
+  - security
+  - accountability
+  - ai-agents
+  - mcp
+pricing:
+  model: freemium
+  free_tier: unlimited local use
+  paid: enterprise audit dashboard + team sharing
+seo:
+  title: MCP Tool Guardian – Validate & Protect AI Agent Tool Outputs
+  keywords: mcp server, ai agent reliability, tool validation, schema enforcement, ai accountability
